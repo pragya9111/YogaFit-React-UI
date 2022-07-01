@@ -1,0 +1,28 @@
+.expyoga{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EBECF2;
+}
+.head{
+    width: inherit;
+    height: 30vh;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head h1{
+    font-size: 4vmax;
+    color: #D06B96;
+    font-family: Poiret One;
+    font-weight: 300;
+}
+.head p{
+    width: 80vw;
+    font-size: 3vmin;
+    font-family: gilroy;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+/* color: #4D88E1; */
