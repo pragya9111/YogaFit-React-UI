@@ -36,4 +36,18 @@ function Blue() {
     )
 }
 
+export default Blue1>Latest Posts</h1>
+                    <ul>
+                        <li>Yoga’s Power to Cure Depression</li>
+                        <li>Yoga Mistakes To Avoid</li>
+                        <li>6 Yoga Poses For Lower Back Pain</li>
+                        <li>The Best Yoga Poses To Relieve Soreness</li>
+                    </ul>
+                    <button>VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+    )
+}
+
 export default Blue
