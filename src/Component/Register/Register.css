@@ -1,0 +1,125 @@
+.register {
+    width: 100vw;
+    height: 110vh;
+    background-color: #EBECF2;
+}
+
+.bg3 {
+    width: 100vw;
+    height: 35vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5F7283;
+    position: relative;
+}
+
+.bg3 img {
+    width: 70%;
+    /* height: 100%; */
+}
+
+.overlay2 {
+    width: 100vw;
+    height: 40vh;
+    background-color: #5f7283c2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bg3 h1 {
+    font-size: 3vmax;
+    font-family: Poiret One;
+    position: absolute;
+    bottom: 2vh;
+    left: 10vw;
+    color: white;
+    font-weight: 300;
+}
+
+.form2 {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.yoga{
+    width: 100vw;
+    height: 15vh;
+    /* background-color: #d6d7df; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.yoga h1{
+    font-size: 2.5vmax;
+    font-family: Poiret One;
+    color: #5F7283;
+}
+.yoga p{
+    width: 80vw;
+    font-family: gilroy;
+    font-size: 2.5vmin;
+    text-align: center;
+}
+
+form {
+    width: 35vw;
+    height: 50vh;
+    margin-top: 4vmin;
+    border-radius: .3vmin;
+    border: 1px solid #d6d7dfcc;
+    box-shadow: 0px 0px 2px #d6d7df;
+    padding-top: 3vmin;
+}
+
+.sec2 {
+    width: inherit;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    margin-bottom: 1vmax;
+    font-family: Gilroy;
+}
+
+.form2 input {
+    width: 17vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 2px solid white;
+    outline-style: none;
+}
+
+form>:nth-child(5) {
+    margin-top: 2.5vmax;
+}
+
+.sec2 textarea {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.sec2 button {
+    padding: 1.2vmin 2.5vmin;
+    background-color: transparent;
+    color: gray;
+    border-radius: 2vmax;
+    transition: all .3s ease-in-out;
+    border: 2px solid white;
+    font-family: gilroy;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.sec2 button:hover {
+    background-color: #5F7283;
+    color: white;
+    border: none;
+}

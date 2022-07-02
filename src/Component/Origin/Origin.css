@@ -1,0 +1,68 @@
+.origin{
+    width: 100vw;
+    height: 50vh;
+    background-color: #62AED6;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.origin .boxx{
+    width: 75vw;
+    height: 35vh;
+    border: 2px solid rgba(255, 255, 255, 0.471);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxx .circle{
+    width: 11vmax;
+    height: 11vmax;
+    background-image: url('./photo.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid #fc908286;
+}
+.name{
+    width: 15vw;
+    height: 20vh;
+    color: white;
+}
+.name h3{
+    font-size: 3vmin;
+    font-family:Gilroy;
+    font-weight: 500;
+    line-height: 5vmin;
+}
+.name h5{
+    font-family:Gilroy;
+    font-weight: 500;
+}
+.name .social{
+    width: inherit;
+    height: 5vh;
+    /* background-color: cadetblue; */
+    margin-top: 3vmax;
+    display: flex;
+    align-items: center;
+}
+.social i{
+    font-size: 4vmin;
+    margin-right: 2vmin;
+    color: rgba(255, 255, 255, 0.514);
+    transition:all .3s ease-in-out;
+}
+.social i:hover{
+    cursor: pointer;
+    color: white;
+}
+.details{
+    width: 30vw;
+    height: 22vh;
+    /* background-color: darkcyan; */
+}
+.details p{
+    font-size: 2vmin;
+    color: white;
+    font-family: gilroy;
+}
