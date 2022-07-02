@@ -1,0 +1,62 @@
+@font-face {
+    font-family: gilroy;
+    src: url(../../../font/Gilroy/Gilroy-Medium.ttf),
+    url(../../../font/Gilroy/Gilroy-Light.ttf),
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(../../../font/PoiretOne.ttf),
+}
+.footer {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ftrlogo {
+    width: 10vmax;
+    height: 10vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ftrlogo img {
+    width: 80%;
+}
+.link{
+    width: 25vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socials{
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 3.2vmax;
+    height: 3.2vmax;
+    background-color: #EEBB73;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    font-size: 4vmin;
+    color: rgb(32, 32, 32);
+}
+.footer p{
+    color: gray;
+    font-family: gilroy;
+}
+.footer span{
+    color: white;
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: gilroy;
+    src: url(../../../font/Gilroy/Gilroy-Medium.ttf),
+    url(../../../font/Gilroy/Gilroy-Light.ttf),
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(../../../font/PoiretOne.ttf),
+}
+.center{
+    width: 100vw;
+    height: 80vh;
+    background-image: url('./centerbg.jpg');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.text5{
+    width: 55vw;
+    height: 40vh;
+    /* background-color: cadetblue; */
+    position: absolute;
+    top:25vh ;
+    left: 35vw;
+    text-align: right;
+}
+.text5 h1{
+    color: #D06B96;
+    font-size: 4vmax;
+    font-weight: 300;
+    font-family: Poiret One;
+}
+.text5 h2{
+    color: #4D88E1;
+    font-size: 3vmax;
+    font-weight: 300;
+    font-family: Poiret One;
+}
+.text5 h3{
+    font-size: 3vmin;
+    font-family: gilroy;
+    font-weight: 300;
+    color: gray;
+    margin-top: 5vmax;
+}

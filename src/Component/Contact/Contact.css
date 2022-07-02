@@ -1,0 +1,114 @@
+@font-face {
+    font-family: gilroy;
+    src: url(../../../font/Gilroy/Gilroy-Medium.ttf),
+    url(../../../font/Gilroy/Gilroy-Light.ttf),
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(../../../font/PoiretOne.ttf),
+}
+.contact {
+    width: 100vw;
+    height: 110vh;
+    background-color: #EBECF2;
+}
+
+.bg3 {
+    width: 100vw;
+    height: 35vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5F7283;
+    position: relative;
+}
+
+.bg3 img {
+    width: 70%;
+    /* height: 100%; */
+}
+
+.overlay {
+    width: 100vw;
+    height: 40vh;
+    background-color: #5f7283c2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bg3 h1 {
+    font-size: 3vmax;
+    font-family: Poiret One;
+    position: absolute;
+    bottom: 2vh;
+    left: 10vw;
+    color: white;
+    font-weight: 300;
+}
+
+.form {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 35vw;
+    height: 65vh;
+    margin-top: 4vmin;
+    border-radius: .3vmin;
+    border: 1px solid #d6d7dfcc;
+    box-shadow: 0px 0px 2px #d6d7df;
+    padding-top: 3vmin;
+}
+
+.sec {
+    width: inherit;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    margin-bottom: 1vmax;
+    font-family: Gilroy;
+}
+
+.form input {
+    width: 17vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 2px solid white;
+    outline-style: none;
+}
+
+form>:nth-child(5) {
+    margin-top: 2.5vmax;
+}
+
+.sec textarea {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.sec button {
+    padding: 1.2vmin 2.5vmin;
+    background-color: transparent;
+    color: gray;
+    margin-top: 5vmax;
+    border-radius: 2vmax;
+    transition: all .3s ease-in-out;
+    border: 2px solid white;
+    font-family: gilroy;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.sec button:hover {
+    background-color: #D06B96;
+    color: white;
+    border: none;
+}
