@@ -1,4 +1,4 @@
-.booknow{
+.booknow {
     width: 100vw;
     height: 25vh;
     background-color: #73C6CD;
@@ -6,13 +6,15 @@
     align-items: center;
     justify-content: space-around;
 }
-.booknow h1{
+
+.booknow h1 {
     font-size: 2.5vmax;
     font-family: Poiret One;
     font-weight: 500;
     color: white;
 }
-.booknow button{
+
+.booknow button {
     padding: 1.6vmin 4vmin;
     background-color: transparent;
     border: 2px solid white;
@@ -22,14 +24,32 @@
     font-family: gilroy;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     transition: all .5s ease-in-out;
     cursor: pointer;
 }
-.booknow button i{
+
+.booknow button i {
     margin-right: 1vmin;
 }
-.booknow button:hover{
+
+.booknow button:hover {
     background-color: white;
     color: #73C6CD;
+}
+
+@media(max-width:500px) {
+    .booknow {
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .booknow button {
+        border-radius: 3vmax;
+    }
+    .booknow h1 {
+        width: 70vw;
+        font-size: 4vmax;
+    }
 }
