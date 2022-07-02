@@ -3,7 +3,10 @@ import './BookNow.css'
 
 function BookNow() {
   return (
-    <div>BookNow</div>
+    <div className='booknow'>
+      <h1>Choose Your Classes and Start Your Training</h1>
+      <button><i class="ri-calendar-2-line"></i> Book Now!</button>
+    </div>
   )
 }
 
