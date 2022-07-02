@@ -69,3 +69,48 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# YogaFit-React-UI" 
+
+
+### Project Title
+
+Yoga Fit 
+
+### About website
+
+This website is about the Yoga Fit Studio, have details about the benefits of yoga, about their yoga classes/sessions, reviews of people, thoughts about yoga.
+
+### Technology Used
+
+This website is created using React.js, JSX ,react-router-dom, Redux.js, GSAP animation, and scroll trigger.
+
+
+### Routing
+
+Here the routing is done using react-router-dom.
+
+On slash route , there's a Home page , deatils about experience of yoga, yoga classes details,reviews of yoga session.
+
+On contact route, there's a form , user can contact the Yoga Fit Studio by filling the contact form.
+
+On register route, there's a register form , user can register themself by filling this form.
+(the register route we get when we click button present on home page)
+
+### State Management
+
+Here the state management is performed using Redux
+
+Here the state is managed in components named as "Home", "OurClasses", "PinkSection".
+
+Reducers used :- 
+    firstReducer -- for managing the state of "Home" component
+    classReducer -- for managing the state of "OurClasses" component
+    thirdReducer -- for managing the state of "PinkSection" component
+
+
+### Footer
+
+In footer section, user can follow Yoga fit studio on there social media handles. 
+
+### GSAP Animation
+
+This website also been created using simple & elegent animations, using Gsap and Scroll Trigger 
